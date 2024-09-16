@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/wilfriedrouyer/calculator)
+- Solution URL: [GitHub](https://github.com/wilfriedrouyer/calculator)
+- Live Site URL: [GitHub Pages](https://wilfriedrouyer.github.io/calculator/)
 
 ## My process
 
