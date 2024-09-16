@@ -1,0 +1,147 @@
+@media (max-width: 370px) {
+  .calculator {
+    width: 250px;
+  }
+
+  .clavier {
+    padding: 15px;
+  }
+
+  .row {
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .result {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 371px) {
+  .calculator {
+    width: 350px;
+  }
+
+  .clavier {
+    padding: 10px 15px 10px 15px;
+  }
+
+  .row {
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .result {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-name {
+  font-family: 'League Spartan';
+  font-size: 24px;
+}
+
+.result {
+  font-family: 'League Spartan';
+  font-size: 32px;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: right;
+  padding: 20px 10px 20px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.clavier {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row > * {
+  flex: 1;
+}
+
+.last-row > * {
+  flex: 2;
+}
+.last-row {
+  display: flex;
+}
+
+.entete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../assets/fonts/LeagueSpartan-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+/***********THEME STYLE****************/
+
+/********APP NAME********/
+.app-name.mode1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.app-name.mode2 {
+  color: hsl(60, 10%, 19%);
+}
+
+.app-name.mode3 {
+  color: hsl(52, 100%, 62%);
+}
+
+/********RESULT SCREEN********/
+.result.mode1 {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(228, 32%, 15%);
+}
+
+.result.mode2 {
+  color: hsl(60, 10%, 19%);
+  background-color: hsl(0, 0%, 93%);
+}
+
+.result.mode3 {
+  color: hsl(52, 100%, 62%);
+  background-color: hsl(268, 71%, 12%);
+}
+
+/*********CLAVIER********/
+
+.clavier.mode1 {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.clavier.mode2 {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.clavier.mode3 {
+  background-color: hsl(268, 71%, 12%);
+}

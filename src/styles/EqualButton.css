@@ -1,0 +1,41 @@
+@media (max-width: 370px) {
+  .equal-button {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 371px) {
+  .equal-button {
+    font-size: 22px;
+  }
+}
+
+.equal-button.mode1 {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0px 2px 1px hsl(6, 70%, 34%);
+}
+
+.equal-button.mode2 {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0px 2px 1px hsl(25, 99%, 27%);
+}
+
+.equal-button.mode3 {
+  color: hsl(198, 20%, 13%);
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0px 2px 1px hsl(177, 92%, 70%);
+}
+
+.equal-button:hover.mode1 {
+  background-color: hsl(8, 80%, 65%);
+}
+
+.equal-button:hover.mode2 {
+  background-color: hsl(25, 89%, 61%);
+}
+
+.equal-button:hover.mode3 {
+  background-color: hsl(177, 93%, 82%);
+}

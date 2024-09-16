@@ -1,0 +1,130 @@
+.three-state-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'League Spartan';
+}
+
+.toggle-slider {
+  width: 60px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 15px;
+  position: relative;
+  left: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slider-title {
+  font-size: 12px;
+}
+
+.toggle-circle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  transition: transform 0.3s;
+}
+
+.toggle-slider.mode1 .toggle-circle {
+  transform: translateX(0);
+}
+
+.toggle-slider.mode2 .toggle-circle {
+  transform: translateX(18px);
+}
+
+.toggle-slider.mode3 .toggle-circle {
+  transform: translateX(37px);
+}
+
+.toggle-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 45px;
+  margin-left: 46px;
+}
+
+.toggle-labels span {
+  font-size: 14px;
+}
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../assets/fonts/LeagueSpartan-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+/***********THEME STYLE****************/
+
+.toggle-slider.mode1 {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.toggle-slider.mode2 {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.toggle-slider.mode3 {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.toggle-circle.mode1 {
+  background-color: hsl(6, 63%, 50%);
+}
+
+.toggle-circle.mode2 {
+  background-color: hsl(25, 98%, 40%);
+}
+
+.toggle-circle.mode3 {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.toggle-circle:hover.mode1 {
+  background-color: hsl(8, 80%, 65%);
+}
+
+.toggle-circle:hover.mode2 {
+  background-color: hsl(25, 89%, 61%);
+}
+
+.toggle-circle:hover.mode3 {
+  background-color: hsl(177, 93%, 82%);
+}
+
+.toggle-labels span.mode1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.toggle-labels span.mode2 {
+  color: hsl(60, 10%, 19%);
+}
+
+.toggle-labels span.mode3 {
+  color: hsl(52, 100%, 62%);
+}
+
+.slider-title.mode1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.slider-title.mode2 {
+  color: hsl(60, 10%, 19%);
+}
+
+.slider-title.mode3 {
+  color: hsl(52, 100%, 62%);
+}

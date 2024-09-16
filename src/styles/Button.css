@@ -1,0 +1,59 @@
+@media (max-width: 370px) {
+  .button {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 371px) {
+  .button {
+    font-size: 26px;
+  }
+}
+
+.button {
+  font-family: 'League Spartan';
+  font-weight: 800;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+/***********FONT FAMILIES****************/
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../assets/fonts/LeagueSpartan-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+/***********THEME STYLE****************/
+
+.button.mode1 {
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  box-shadow: 0px 2px 1px hsl(28, 16%, 65%);
+}
+
+.button.mode2 {
+  background-color: hsl(45, 7%, 89%);
+  color: hsl(60, 10%, 19%);
+  box-shadow: 0px 2px 1px hsl(35, 11%, 61%);
+}
+
+.button.mode3 {
+  background-color: hsl(268, 47%, 21%);
+  color: hsl(52, 100%, 62%);
+  box-shadow: 0px 2px 1px hsl(290, 70%, 36%);
+}
+
+.button:hover.mode1 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.button:hover.mode2 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.button:hover.mode3 {
+  background-color: hsl(266, 50%, 44%);
+}

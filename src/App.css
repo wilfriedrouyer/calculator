@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App.mode1 {
+  background-color: hsl(222, 26%, 31%);
+}
+
+.App.mode2 {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.App.mode3 {
+  background-color: hsl(268, 75%, 9%);
+}
