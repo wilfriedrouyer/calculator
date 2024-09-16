@@ -49,7 +49,6 @@ Users should be able to:
 The part that I had the most trouble to deal with was the usage of flexboxes. This concept is important and quite usefull in CSS and I think I have progressed during this challenge.
 
 As a beginner in React, the constraint of the Theme Mode was a really challenge and it made me learn the useContext function.
-For more details :
 
 ### Useful resources
 
